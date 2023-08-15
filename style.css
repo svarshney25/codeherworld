@@ -1,0 +1,201 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter; 
+  color: #000000;
+  
+}
+details > summary {
+  padding: 10px;
+  width: 400px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  border: solid;
+  border-width: thin;
+}
+
+details > p {
+  padding: 10px;
+  width: 1000px;
+  margin: 0;
+  font-size: 20px;
+  background-color: #f7f7f7;
+}
+.faq-title {
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder; 
+  color: white;
+  font-size: 30px;
+}
+.faq {
+  background-color: #f0adb0;
+  padding: 30px;
+  background-image: url("faq.jpeg")
+}
+  
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder;
+  color: #2F5061;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  color: #2F5061;
+  font-weight: lighter;
+}
+
+#title {
+  font-size: 60px;  
+}
+
+#logo {
+  height: 150px;
+  width: 270px;
+}
+
+.spacer {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+.interest {
+  background-color: #EFB8BA;
+  padding: 30px;
+}
+
+footer {
+  margin: 70px;
+  font-size: 20px;
+}
+.footer-images {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.email-button {
+  background-color: #4297A0;
+  height: 60px;
+  width: 120px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter; 
+}
+
+.email-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+.link {   
+ font-size: 21px;
+ color: black;
+ text-decoration: none;
+ padding: 20px;
+ line-height: 56px;
+ font-family: 'Karla', sans-serif;
+ font-weight: lighter;
+}
+
+.dropbtn {
+  display: block;
+  height: 60px;
+  width:80px;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #E57F84;
+  overflow: hidden;
+  height: 60px;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+/* List elements */
+li.nav-item {
+  display: inline;
+  float: right;
+  font-family: monospace;
+}
+
+li.nav-item a:hover {
+ background-color: #f0adb0;
+ color: white;
+}
+
+.dropbtn {
+  background-color: #E57F84;
+  color: white;
+  font-size: 21px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: black;
+  border: 0px;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F4EAE6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+  font-size: 15px;
+}
+.dropbtn{
+  width: 100%
+}
+
+.dropbtn:hover{
+  background-color: #f0adb0;
+  width: 100%
+  padding: 20px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f0adb0;
+  color: white;
+  /* width: 100% */
+}

@@ -1,0 +1,257 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+
+.img-fluid{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+/* bg color: #F4EAE6*/
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+.reshmipage {
+  border-style: none;
+  width: 600px;
+  height: 380px;
+  transition: transform .2s;
+}
+.pastprojects {
+  background-color: #EFB8BA;
+  padding: 15px;
+  text-align: center;
+}
+.reshmipage:hover{
+    transform:scale(1.1);
+}
+#past {
+  font-size: 45px;
+  text-align: center;
+}
+#pastinfo {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+.pastcampname {
+  font-size: 20px;
+}
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+.intro {
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.webdevsignup {
+  background-color: #EFB8BA;
+  padding: 15px;
+  text-align: center;
+}
+
+.webdevcamp {
+  margin: 10px;
+  width: 600px;
+  height: 300px;
+  border-style: solid;
+  border-color: #76b5bc;
+  border-width: 8px;
+}
+
+.pythoncamp {
+  margin: 10px;
+  width: 600px;
+  height: 300px;
+  border-style: solid;
+  border-color: #EFB8BA;
+  border-width: 8px;
+}
+.spacer {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+.pythonsignup {
+  background-color: #76b5bc;
+  padding: 15px;
+  text-align: center;
+}
+#title {
+  font-size: 60px;  
+}
+
+.camp-name {
+  font-size: 30px;  
+}
+footer {
+  margin: 70px;
+  font-size: 20px;
+}
+.footer-images {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.signup {
+  background-color: #4297A0;
+  height: 60px;
+  width: 120px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.signup:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+#logo {
+  height: 150px;
+  width: 270px;
+}
+.nav-image {
+  height: 80px;
+  width: 50px;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+}
+
+footer {
+  margin: 70px;
+  font-size: 20px;
+  text-align: center;
+}
+.footer-images {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.dropbtn {
+  display: block;
+  height: 60px;
+  width:80px;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #E57F84;
+  overflow: hidden;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+  font-size: 25px;
+}
+
+/* List elements */
+li.nav-item {
+  display: inline;
+  float: right;
+  font-family: monospace;
+}
+
+/* List elements with a link or <a> tag */
+.link {   
+ font-size: 21px;
+ text-decoration: none;
+ padding: 20px;
+ line-height: 56px;
+ font-family: 'Karla', sans-serif;
+ font-weight: lighter;
+ color: black;
+}
+
+/* List elements with a link or <a> tag when you hover over them */
+li.nav-item a:hover {
+ background-color: #f0adb0;
+ color: white;
+}
+
+.dropbtn {
+  background-color: #E57F84;
+  color: white;
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 25px;
+  border: 0px;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F4EAE6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.dropbtn{
+  width: 100%
+}
+
+.dropbtn:hover{
+  background-color: #f0adb0;
+  width: 100%
+  padding: 20px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f0adb0;
+  color: white;
+  /* width: 100% */
+}

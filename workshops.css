@@ -1,0 +1,264 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.img-fluid{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.reshmipage {
+  border-style: none;
+  width: 600px;
+  height: 380px;
+  transition: transform .2s;
+}
+.pastprojects {
+  background-color: #EFB8BA;
+  padding: 15px;
+  text-align: center;
+}
+.reshmipage:hover{
+    transform:scale(1.1);
+}
+#past {
+  font-size: 45px;
+  text-align: center;
+}
+#pastinfo {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+.pastcampname {
+  font-size: 20px;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans';
+}
+h2 {
+  font-family: 'Karla', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+h1 {
+  font-family: 'Karla', sans-serif;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+.intro {
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.appdesign {
+  background-color: #EFB8BA;
+  padding: 15px;
+  text-align: center;
+}
+
+.spacer {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+.holidaycard {
+  background-color: #76b5bc;
+  padding: 15px;
+  text-align: center;
+}
+#title {
+  font-size: 60px;  
+}
+
+.camp-name {
+  font-size: 30px;  
+}
+footer {
+  margin: 70px;
+  font-size: 20px;
+}
+.footer-images {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.signup {
+  background-color: #4297A0;
+  height: 60px;
+  width: 120px;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+.signup:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+#logo {
+  height: 150px;
+  width: 270px;
+}
+.nav-image {
+  height: 80px;
+  width: 50px;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+}
+
+footer {
+  margin: 70px;
+  font-size: 20px;
+  text-align: center;
+}
+.footer-images {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.dropbtn {
+  display: block;
+  height: 60px;
+  width:80px;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #E57F84;
+  overflow: hidden;
+  height: 60px;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+/* List elements */
+li.nav-item {
+  display: inline;
+  float: right;
+  font-family: monospace;
+}
+
+/* List elements with a link or <a> tag */
+.link {   
+ font-size: 21px;
+ color: black;
+ text-decoration: none;
+ padding: 20px;
+ line-height: 56px;
+ font-family: 'Karla', sans-serif;
+ font-weight: lighter;
+}
+
+/* List elements with a link or <a> tag when you hover over them */
+li.nav-item a:hover {
+ background-color: #f0adb0;
+ color: white;
+}
+
+.dropbtn {
+  background-color: #E57F84;
+  color: white;
+  font-size: 21px;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: black;
+  border: 0px;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F4EAE6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.dropbtn{
+  width: 100%
+}
+
+.dropbtn:hover{
+  background-color: #f0adb0;
+  width: 100%
+  padding: 20px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f0adb0;
+  color: white;
+  /* width: 100% */
+}
+
+/*image slideshow */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 200px;
+  height: 350px;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+}
